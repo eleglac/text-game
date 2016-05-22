@@ -2,17 +2,16 @@
   (:require-macros [hiccups.core :as hiccups :refer [html]])
   (:require [text-game.render :refer [render-region render-page]]))
 
-(def instruction-region
-  {:width 25 :height 25 :x 55 :y 0 :fill-char "-" :text "This is an illustration of the instruction region."})
+(def regions 
+  [{:id "instruction-region"  :width 23 :height 22 :x 57 :y 0  :fill-char "." :text "This is an illustration of the instruction region."}
+   {:id "view-region"         :width 56 :height 22 :x 0  :y 0  :fill-char "." :text "This is an illustration of the view region."} 
+   {:id "view-margin-right"   :width 1  :height 22 :x 56 :y 0  :fill-char "|" :text nil}
+   {:id "input-margin-top"    :width 80 :height 1  :x 0  :y 22 :fill-char "_" :text nil} 
+   {:id "input-region"        :width 80 :height 1  :x 0  :y 23 :fill-char "." :text "This is an illustration of the input region."}
+   {:id "input-margin-bottom" :width 80 :height 1  :x 0  :y 24 :fill-char "." :text nil}])
 
-(def view-region
-  {:width 55 :height 22 :x 0 :y 0 :fill-char "." :text "This is an illustration of the view region."})
-
-(def input-region
-  {:width 55 :height 3 :x 0 :y 22 :fill-char "*" :text "This is an illustration of the input region."})
-
-(def test-page 
-  (html (render-page (flatten 
-    [(render-region instruction-region)
-     (render-region view-region)
-     (render-region input-region)]))))
+(def test-page
+  (->> (map render-region regions)
+       (flatten)
+       (render-page)
+       (html)))

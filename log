@@ -1,12 +1,308 @@
 Reading analysis cache for jar:file:/home/eleglac/.m2/repository/org/clojure/clojurescript/1.8.51/clojurescript-1.8.51.jar!/cljs/core.cljs
-Compiling src/text_game/render.cljs
+Compiling /home/eleglac/Code/text-game/src/text_game/regions.cljs
 Reading analysis cache for jar:file:/home/eleglac/.m2/repository/org/clojure/clojurescript/1.8.51/clojurescript-1.8.51.jar!/clojure/string.cljs
 Reading analysis cache for jar:file:/home/eleglac/.m2/repository/hiccups/hiccups/0.3.0/hiccups-0.3.0.jar!/hiccups/runtime.cljs
-Compiling /home/eleglac/Code/text-game/src/text_game/regions.cljs
+Reading analysis cache for file:/home/eleglac/Code/text-game/src/text_game/render.cljs
 Compiling src/text_game/core.cljs
 Reading analysis cache for jar:file:/home/eleglac/.m2/repository/org/clojure/clojurescript/1.8.51/clojurescript-1.8.51.jar!/clojure/browser/event.cljs
 Reading analysis cache for jar:file:/home/eleglac/.m2/repository/org/clojure/clojurescript/1.8.51/clojurescript-1.8.51.jar!/clojure/browser/net.cljs
 Reading analysis cache for jar:file:/home/eleglac/.m2/repository/org/clojure/clojurescript/1.8.51/clojurescript-1.8.51.jar!/cljs/repl.cljs
 Reading analysis cache for jar:file:/home/eleglac/.m2/repository/org/clojure/clojurescript/1.8.51/clojurescript-1.8.51.jar!/clojure/browser/repl.cljs
-Copying file:/home/eleglac/Code/text-game/src/text_game/render.cljs to out/text_game/render.cljs
+Copying file:/home/eleglac/Code/text-game/src/text_game/regions.cljs to out/text_game/regions.cljs
+Compiling /home/eleglac/Code/text-game/src/text_game/regions.cljs
+Compiling src/text_game/core.cljs
+Copying file:/home/eleglac/Code/text-game/src/text_game/regions.cljs to out/text_game/regions.cljs
+Compiling /home/eleglac/Code/text-game/src/text_game/regions.cljs
+clojure.lang.ExceptionInfo: failed compiling file:/home/eleglac/Code/text-game/src/text_game/regions.cljs {:file #object[java.io.File 0x20a3321a "/home/eleglac/Code/text-game/src/text_game/regions.cljs"]}
+	at clojure.core$ex_info.invokeStatic(core.clj:4617)
+	at clojure.core$ex_info.invoke(core.clj:4617)
+	at cljs.compiler$compile_file$fn__3317.invoke(compiler.cljc:1372)
+	at cljs.compiler$compile_file.invokeStatic(compiler.cljc:1338)
+	at cljs.compiler$compile_file.invoke(compiler.cljc:1318)
+	at cljs.closure$compile_file.invokeStatic(closure.clj:473)
+	at cljs.closure$compile_file.invoke(closure.clj:464)
+	at cljs.closure$eval5054$fn__5055.invoke(closure.clj:540)
+	at cljs.closure$eval4990$fn__4991$G__4979__4998.invoke(closure.clj:430)
+	at cljs.closure$eval5060$fn__5061.invoke(closure.clj:549)
+	at cljs.closure$eval4990$fn__4991$G__4979__4998.invoke(closure.clj:430)
+	at cljs.closure$compile_sources$iter__5175__5179$fn__5180.invoke(closure.clj:869)
+	at clojure.lang.LazySeq.sval(LazySeq.java:40)
+	at clojure.lang.LazySeq.seq(LazySeq.java:49)
+	at clojure.lang.Cons.next(Cons.java:39)
+	at clojure.lang.RT.next(RT.java:688)
+	at clojure.core$next__4341.invokeStatic(core.clj:64)
+	at clojure.core$dorun.invokeStatic(core.clj:3033)
+	at clojure.core$doall.invokeStatic(core.clj:3039)
+	at clojure.core$doall.invoke(core.clj:3039)
+	at cljs.closure$compile_sources.invokeStatic(closure.clj:865)
+	at cljs.closure$compile_sources.invoke(closure.clj:854)
+	at cljs.closure$build.invokeStatic(closure.clj:1943)
+	at cljs.closure$build.invoke(closure.clj:1882)
+	at cljs.closure$watch$buildf__5578.invoke(closure.clj:2026)
+	at cljs.closure$watch.invokeStatic(closure.clj:2075)
+	at cljs.closure$watch.invoke(closure.clj:2003)
+	at cljs.build.api$watch.invokeStatic(api.clj:223)
+	at cljs.build.api$watch.invoke(api.clj:212)
+	at cljs.build.api$watch.invokeStatic(api.clj:220)
+	at cljs.build.api$watch.invoke(api.clj:212)
+	at cljs.build.api$watch.invokeStatic(api.clj:215)
+	at cljs.build.api$watch.invoke(api.clj:212)
+	at user$eval5668.invokeStatic(watch.clj:3)
+	at user$eval5668.invoke(watch.clj:3)
+	at clojure.lang.Compiler.eval(Compiler.java:6927)
+	at clojure.lang.Compiler.load(Compiler.java:7379)
+	at clojure.lang.Compiler.loadFile(Compiler.java:7317)
+	at clojure.main$load_script.invokeStatic(main.clj:275)
+	at clojure.main$script_opt.invokeStatic(main.clj:335)
+	at clojure.main$script_opt.invoke(main.clj:330)
+	at clojure.main$main.invokeStatic(main.clj:421)
+	at clojure.main$main.doInvoke(main.clj:384)
+	at clojure.lang.RestFn.invoke(RestFn.java:408)
+	at clojure.lang.Var.invoke(Var.java:379)
+	at clojure.lang.AFn.applyToHelper(AFn.java:154)
+	at clojure.lang.Var.applyTo(Var.java:700)
+	at clojure.main.main(main.java:37)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93)
+	at clojure.lang.Reflector.invokeStaticMethod(Reflector.java:207)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93)
+	at clojure.lang.Reflector.invokeStaticMethod(Reflector.java:207)
+	at user$eval5.invokeStatic(form-init4823136531126711321.clj:1)
+	at user$eval5.invoke(form-init4823136531126711321.clj:1)
+	at clojure.lang.Compiler.eval(Compiler.java:6927)
+	at clojure.lang.Compiler.eval(Compiler.java:6917)
+	at clojure.lang.Compiler.load(Compiler.java:7379)
+	at clojure.lang.Compiler.loadFile(Compiler.java:7317)
+	at clojure.main$load_script.invokeStatic(main.clj:275)
+	at clojure.main$init_opt.invokeStatic(main.clj:277)
+	at clojure.main$init_opt.invoke(main.clj:277)
+	at clojure.main$initialize.invokeStatic(main.clj:308)
+	at clojure.main$null_opt.invokeStatic(main.clj:342)
+	at clojure.main$null_opt.invoke(main.clj:339)
+	at clojure.main$main.invokeStatic(main.clj:421)
+	at clojure.main$main.doInvoke(main.clj:384)
+	at clojure.lang.RestFn.invoke(RestFn.java:421)
+	at clojure.lang.Var.invoke(Var.java:383)
+	at clojure.lang.AFn.applyToHelper(AFn.java:156)
+	at clojure.lang.Var.applyTo(Var.java:700)
+	at clojure.main.main(main.java:37)
+Caused by: clojure.lang.ExceptionInfo: Wrong number of args (7) passed to: analyzer/eval1494/fn--1495/pfn--1496 at line 5 /home/eleglac/Code/text-game/src/text_game/regions.cljs {:file "/home/eleglac/Code/text-game/src/text_game/regions.cljs", :line 5, :column 1, :tag :cljs/analysis-error}
+	at clojure.core$ex_info.invokeStatic(core.clj:4617)
+	at clojure.core$ex_info.invoke(core.clj:4617)
+	at cljs.analyzer$error.invokeStatic(analyzer.cljc:580)
+	at cljs.analyzer$error.invoke(analyzer.cljc:576)
+	at cljs.analyzer$analyze_seq_STAR__wrap.invokeStatic(analyzer.cljc:2420)
+	at cljs.analyzer$analyze_seq_STAR__wrap.invoke(analyzer.cljc:2419)
+	at cljs.analyzer$analyze_seq.invokeStatic(analyzer.cljc:2442)
+	at cljs.analyzer$analyze_seq.invoke(analyzer.cljc:2423)
+	at cljs.analyzer$analyze_form.invokeStatic(analyzer.cljc:2555)
+	at cljs.analyzer$analyze_form.invoke(analyzer.cljc:2551)
+	at cljs.analyzer$analyze_STAR_.invokeStatic(analyzer.cljc:2602)
+	at cljs.analyzer$analyze_STAR_.invoke(analyzer.cljc:2593)
+	at cljs.analyzer$analyze.invokeStatic(analyzer.cljc:2618)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2605)
+	at cljs.compiler$emit_source.invokeStatic(compiler.cljc:1239)
+	at cljs.compiler$emit_source.invoke(compiler.cljc:1219)
+	at cljs.compiler$compile_file_STAR_$fn__3294.invoke(compiler.cljc:1290)
+	at cljs.compiler$with_core_cljs.invokeStatic(compiler.cljc:1154)
+	at cljs.compiler$with_core_cljs.invoke(compiler.cljc:1145)
+	at cljs.compiler$compile_file_STAR_.invokeStatic(compiler.cljc:1279)
+	at cljs.compiler$compile_file_STAR_.invoke(compiler.cljc:1275)
+	at cljs.compiler$compile_file$fn__3317.invoke(compiler.cljc:1360)
+	... 76 more
+Caused by: clojure.lang.ArityException: Wrong number of args (7) passed to: analyzer/eval1494/fn--1495/pfn--1496
+	at clojure.lang.AFn.throwArity(AFn.java:429)
+	at clojure.lang.AFn.invoke(AFn.java:57)
+	at clojure.lang.AFn.applyToHelper(AFn.java:186)
+	at clojure.lang.AFn.applyTo(AFn.java:144)
+	at clojure.core$apply.invokeStatic(core.clj:646)
+	at clojure.core$apply.invoke(core.clj:641)
+	at cljs.analyzer$eval1494$fn__1495.invoke(analyzer.cljc:1081)
+	at clojure.lang.MultiFn.invoke(MultiFn.java:251)
+	at cljs.analyzer$analyze_seq_STAR_.invokeStatic(analyzer.cljc:2416)
+	at cljs.analyzer$analyze_seq_STAR_.invoke(analyzer.cljc:2414)
+	at cljs.analyzer$analyze_seq_STAR__wrap.invokeStatic(analyzer.cljc:2421)
+	... 93 more
+
+Copying file:/home/eleglac/Code/text-game/src/text_game/regions.cljs to out/text_game/regions.cljs
+Compiling /home/eleglac/Code/text-game/src/text_game/regions.cljs
+clojure.lang.ExceptionInfo: failed compiling file:/home/eleglac/Code/text-game/src/text_game/regions.cljs {:file #object[java.io.File 0x390978 "/home/eleglac/Code/text-game/src/text_game/regions.cljs"]}
+	at clojure.core$ex_info.invokeStatic(core.clj:4617)
+	at clojure.core$ex_info.invoke(core.clj:4617)
+	at cljs.compiler$compile_file$fn__3317.invoke(compiler.cljc:1372)
+	at cljs.compiler$compile_file.invokeStatic(compiler.cljc:1338)
+	at cljs.compiler$compile_file.invoke(compiler.cljc:1318)
+	at cljs.closure$compile_file.invokeStatic(closure.clj:473)
+	at cljs.closure$compile_file.invoke(closure.clj:464)
+	at cljs.closure$eval5054$fn__5055.invoke(closure.clj:540)
+	at cljs.closure$eval4990$fn__4991$G__4979__4998.invoke(closure.clj:430)
+	at cljs.closure$eval5060$fn__5061.invoke(closure.clj:549)
+	at cljs.closure$eval4990$fn__4991$G__4979__4998.invoke(closure.clj:430)
+	at cljs.closure$compile_sources$iter__5175__5179$fn__5180.invoke(closure.clj:869)
+	at clojure.lang.LazySeq.sval(LazySeq.java:40)
+	at clojure.lang.LazySeq.seq(LazySeq.java:49)
+	at clojure.lang.Cons.next(Cons.java:39)
+	at clojure.lang.RT.next(RT.java:688)
+	at clojure.core$next__4341.invokeStatic(core.clj:64)
+	at clojure.core$dorun.invokeStatic(core.clj:3033)
+	at clojure.core$doall.invokeStatic(core.clj:3039)
+	at clojure.core$doall.invoke(core.clj:3039)
+	at cljs.closure$compile_sources.invokeStatic(closure.clj:865)
+	at cljs.closure$compile_sources.invoke(closure.clj:854)
+	at cljs.closure$build.invokeStatic(closure.clj:1943)
+	at cljs.closure$build.invoke(closure.clj:1882)
+	at cljs.closure$watch$buildf__5578.invoke(closure.clj:2026)
+	at cljs.closure$watch.invokeStatic(closure.clj:2075)
+	at cljs.closure$watch.invoke(closure.clj:2003)
+	at cljs.build.api$watch.invokeStatic(api.clj:223)
+	at cljs.build.api$watch.invoke(api.clj:212)
+	at cljs.build.api$watch.invokeStatic(api.clj:220)
+	at cljs.build.api$watch.invoke(api.clj:212)
+	at cljs.build.api$watch.invokeStatic(api.clj:215)
+	at cljs.build.api$watch.invoke(api.clj:212)
+	at user$eval5668.invokeStatic(watch.clj:3)
+	at user$eval5668.invoke(watch.clj:3)
+	at clojure.lang.Compiler.eval(Compiler.java:6927)
+	at clojure.lang.Compiler.load(Compiler.java:7379)
+	at clojure.lang.Compiler.loadFile(Compiler.java:7317)
+	at clojure.main$load_script.invokeStatic(main.clj:275)
+	at clojure.main$script_opt.invokeStatic(main.clj:335)
+	at clojure.main$script_opt.invoke(main.clj:330)
+	at clojure.main$main.invokeStatic(main.clj:421)
+	at clojure.main$main.doInvoke(main.clj:384)
+	at clojure.lang.RestFn.invoke(RestFn.java:408)
+	at clojure.lang.Var.invoke(Var.java:379)
+	at clojure.lang.AFn.applyToHelper(AFn.java:154)
+	at clojure.lang.Var.applyTo(Var.java:700)
+	at clojure.main.main(main.java:37)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93)
+	at clojure.lang.Reflector.invokeStaticMethod(Reflector.java:207)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93)
+	at clojure.lang.Reflector.invokeStaticMethod(Reflector.java:207)
+	at user$eval5.invokeStatic(form-init4823136531126711321.clj:1)
+	at user$eval5.invoke(form-init4823136531126711321.clj:1)
+	at clojure.lang.Compiler.eval(Compiler.java:6927)
+	at clojure.lang.Compiler.eval(Compiler.java:6917)
+	at clojure.lang.Compiler.load(Compiler.java:7379)
+	at clojure.lang.Compiler.loadFile(Compiler.java:7317)
+	at clojure.main$load_script.invokeStatic(main.clj:275)
+	at clojure.main$init_opt.invokeStatic(main.clj:277)
+	at clojure.main$init_opt.invoke(main.clj:277)
+	at clojure.main$initialize.invokeStatic(main.clj:308)
+	at clojure.main$null_opt.invokeStatic(main.clj:342)
+	at clojure.main$null_opt.invoke(main.clj:339)
+	at clojure.main$main.invokeStatic(main.clj:421)
+	at clojure.main$main.doInvoke(main.clj:384)
+	at clojure.lang.RestFn.invoke(RestFn.java:421)
+	at clojure.lang.Var.invoke(Var.java:383)
+	at clojure.lang.AFn.applyToHelper(AFn.java:156)
+	at clojure.lang.Var.applyTo(Var.java:700)
+	at clojure.main.main(main.java:37)
+Caused by: clojure.lang.ExceptionInfo: Wrong number of args (7) passed to: analyzer/eval1494/fn--1495/pfn--1496 at line 5 /home/eleglac/Code/text-game/src/text_game/regions.cljs {:file "/home/eleglac/Code/text-game/src/text_game/regions.cljs", :line 5, :column 1, :tag :cljs/analysis-error}
+	at clojure.core$ex_info.invokeStatic(core.clj:4617)
+	at clojure.core$ex_info.invoke(core.clj:4617)
+	at cljs.analyzer$error.invokeStatic(analyzer.cljc:580)
+	at cljs.analyzer$error.invoke(analyzer.cljc:576)
+	at cljs.analyzer$analyze_seq_STAR__wrap.invokeStatic(analyzer.cljc:2420)
+	at cljs.analyzer$analyze_seq_STAR__wrap.invoke(analyzer.cljc:2419)
+	at cljs.analyzer$analyze_seq.invokeStatic(analyzer.cljc:2442)
+	at cljs.analyzer$analyze_seq.invoke(analyzer.cljc:2423)
+	at cljs.analyzer$analyze_form.invokeStatic(analyzer.cljc:2555)
+	at cljs.analyzer$analyze_form.invoke(analyzer.cljc:2551)
+	at cljs.analyzer$analyze_STAR_.invokeStatic(analyzer.cljc:2602)
+	at cljs.analyzer$analyze_STAR_.invoke(analyzer.cljc:2593)
+	at cljs.analyzer$analyze.invokeStatic(analyzer.cljc:2618)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2605)
+	at cljs.compiler$emit_source.invokeStatic(compiler.cljc:1239)
+	at cljs.compiler$emit_source.invoke(compiler.cljc:1219)
+	at cljs.compiler$compile_file_STAR_$fn__3294.invoke(compiler.cljc:1290)
+	at cljs.compiler$with_core_cljs.invokeStatic(compiler.cljc:1154)
+	at cljs.compiler$with_core_cljs.invoke(compiler.cljc:1145)
+	at cljs.compiler$compile_file_STAR_.invokeStatic(compiler.cljc:1279)
+	at cljs.compiler$compile_file_STAR_.invoke(compiler.cljc:1275)
+	at cljs.compiler$compile_file$fn__3317.invoke(compiler.cljc:1360)
+	... 76 more
+Caused by: clojure.lang.ArityException: Wrong number of args (7) passed to: analyzer/eval1494/fn--1495/pfn--1496
+	at clojure.lang.AFn.throwArity(AFn.java:429)
+	at clojure.lang.AFn.invoke(AFn.java:57)
+	at clojure.lang.AFn.applyToHelper(AFn.java:186)
+	at clojure.lang.AFn.applyTo(AFn.java:144)
+	at clojure.core$apply.invokeStatic(core.clj:646)
+	at clojure.core$apply.invoke(core.clj:641)
+	at cljs.analyzer$eval1494$fn__1495.invoke(analyzer.cljc:1081)
+	at clojure.lang.MultiFn.invoke(MultiFn.java:251)
+	at cljs.analyzer$analyze_seq_STAR_.invokeStatic(analyzer.cljc:2416)
+	at cljs.analyzer$analyze_seq_STAR_.invoke(analyzer.cljc:2414)
+	at cljs.analyzer$analyze_seq_STAR__wrap.invokeStatic(analyzer.cljc:2421)
+	... 93 more
+
+Compiling /home/eleglac/Code/text-game/src/text_game/regions.cljs
+WARNING: Wrong number of args (2) passed to cljs.core/flatten at line 14 /home/eleglac/Code/text-game/src/text_game/regions.cljs
+WARNING: Use of undeclared Var text-game.regions/instruction-region at line 15 /home/eleglac/Code/text-game/src/text_game/regions.cljs
+WARNING: Use of undeclared Var text-game.regions/view-region at line 16 /home/eleglac/Code/text-game/src/text_game/regions.cljs
+WARNING: Use of undeclared Var text-game.regions/input-region at line 17 /home/eleglac/Code/text-game/src/text_game/regions.cljs
+Compiling src/text_game/core.cljs
+Copying file:/home/eleglac/Code/text-game/src/text_game/regions.cljs to out/text_game/regions.cljs
+Compiling /home/eleglac/Code/text-game/src/text_game/regions.cljs
+Compiling src/text_game/core.cljs
+Copying file:/home/eleglac/Code/text-game/src/text_game/regions.cljs to out/text_game/regions.cljs
+Compiling /home/eleglac/Code/text-game/src/text_game/regions.cljs
+Compiling src/text_game/core.cljs
+Copying file:/home/eleglac/Code/text-game/src/text_game/regions.cljs to out/text_game/regions.cljs
+Compiling /home/eleglac/Code/text-game/src/text_game/regions.cljs
+Compiling src/text_game/core.cljs
+Copying file:/home/eleglac/Code/text-game/src/text_game/regions.cljs to out/text_game/regions.cljs
+Compiling /home/eleglac/Code/text-game/src/text_game/regions.cljs
+Compiling src/text_game/core.cljs
+Copying file:/home/eleglac/Code/text-game/src/text_game/regions.cljs to out/text_game/regions.cljs
+Compiling /home/eleglac/Code/text-game/src/text_game/regions.cljs
+Compiling src/text_game/core.cljs
+Copying file:/home/eleglac/Code/text-game/src/text_game/regions.cljs to out/text_game/regions.cljs
+Compiling /home/eleglac/Code/text-game/src/text_game/regions.cljs
+Compiling src/text_game/core.cljs
+Copying file:/home/eleglac/Code/text-game/src/text_game/regions.cljs to out/text_game/regions.cljs
+Compiling /home/eleglac/Code/text-game/src/text_game/regions.cljs
+Compiling src/text_game/core.cljs
+Copying file:/home/eleglac/Code/text-game/src/text_game/regions.cljs to out/text_game/regions.cljs
+Compiling /home/eleglac/Code/text-game/src/text_game/regions.cljs
+Compiling src/text_game/core.cljs
+Copying file:/home/eleglac/Code/text-game/src/text_game/regions.cljs to out/text_game/regions.cljs
+Compiling /home/eleglac/Code/text-game/src/text_game/regions.cljs
+Compiling src/text_game/core.cljs
+Copying file:/home/eleglac/Code/text-game/src/text_game/regions.cljs to out/text_game/regions.cljs
+Compiling /home/eleglac/Code/text-game/src/text_game/regions.cljs
+Compiling src/text_game/core.cljs
+Copying file:/home/eleglac/Code/text-game/src/text_game/regions.cljs to out/text_game/regions.cljs
+Compiling /home/eleglac/Code/text-game/src/text_game/regions.cljs
+Compiling src/text_game/core.cljs
+Copying file:/home/eleglac/Code/text-game/src/text_game/regions.cljs to out/text_game/regions.cljs
+Compiling /home/eleglac/Code/text-game/src/text_game/regions.cljs
+Compiling src/text_game/core.cljs
+Copying file:/home/eleglac/Code/text-game/src/text_game/regions.cljs to out/text_game/regions.cljs
+Compiling /home/eleglac/Code/text-game/src/text_game/regions.cljs
+Compiling src/text_game/core.cljs
+Copying file:/home/eleglac/Code/text-game/src/text_game/regions.cljs to out/text_game/regions.cljs
+Compiling /home/eleglac/Code/text-game/src/text_game/regions.cljs
+Compiling src/text_game/core.cljs
+Copying file:/home/eleglac/Code/text-game/src/text_game/regions.cljs to out/text_game/regions.cljs
+Compiling /home/eleglac/Code/text-game/src/text_game/regions.cljs
+Compiling src/text_game/core.cljs
+Copying file:/home/eleglac/Code/text-game/src/text_game/regions.cljs to out/text_game/regions.cljs
+Compiling /home/eleglac/Code/text-game/src/text_game/regions.cljs
+Compiling src/text_game/core.cljs
 Copying file:/home/eleglac/Code/text-game/src/text_game/regions.cljs to out/text_game/regions.cljs
