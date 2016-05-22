@@ -1,0 +1,2 @@
+;; Analyzed by ClojureScript 1.8.51
+{:name text-game.core, :doc nil, :excludes #{}, :use-macros nil, :require-macros nil, :uses {test-page text-game.regions}, :requires {repl clojure.browser.repl, clojure.browser.repl clojure.browser.repl, text-game.regions text-game.regions}, :imports nil, :defs {console-div {:name text-game.core/console-div, :file "src/text_game/core.cljs", :line 13, :column 1, :end-line 13, :end-column 17, :meta {:file "/home/eleglac/Code/text-game/src/text_game/core.cljs", :line 13, :column 6, :end-line 13, :end-column 17}}}}

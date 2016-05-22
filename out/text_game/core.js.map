@@ -1,0 +1,1 @@
+{"version":3,"file":"\/home\/eleglac\/Code\/text-game\/out\/text_game\/core.js","sources":["core.cljs"],"lineCount":10,"mappings":";AAAA;;;;AAUA,AAACA;AAED,AAAKC,6BAAY,wBAAA,xBAAiBC;AAElC,AAAM,AAAGD,uCAAwBE","names":["cljs.core\/enable-console-print!","text-game.core\/console-div","js\/document","text-game.regions\/test-page"]}
