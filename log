@@ -1,0 +1,12 @@
+Reading analysis cache for jar:file:/home/eleglac/.m2/repository/org/clojure/clojurescript/1.8.51/clojurescript-1.8.51.jar!/cljs/core.cljs
+Compiling src/text_game/render.cljs
+Reading analysis cache for jar:file:/home/eleglac/.m2/repository/org/clojure/clojurescript/1.8.51/clojurescript-1.8.51.jar!/clojure/string.cljs
+Reading analysis cache for jar:file:/home/eleglac/.m2/repository/hiccups/hiccups/0.3.0/hiccups-0.3.0.jar!/hiccups/runtime.cljs
+Compiling /home/eleglac/Code/text-game/src/text_game/regions.cljs
+Compiling src/text_game/core.cljs
+Reading analysis cache for jar:file:/home/eleglac/.m2/repository/org/clojure/clojurescript/1.8.51/clojurescript-1.8.51.jar!/clojure/browser/event.cljs
+Reading analysis cache for jar:file:/home/eleglac/.m2/repository/org/clojure/clojurescript/1.8.51/clojurescript-1.8.51.jar!/clojure/browser/net.cljs
+Reading analysis cache for jar:file:/home/eleglac/.m2/repository/org/clojure/clojurescript/1.8.51/clojurescript-1.8.51.jar!/cljs/repl.cljs
+Reading analysis cache for jar:file:/home/eleglac/.m2/repository/org/clojure/clojurescript/1.8.51/clojurescript-1.8.51.jar!/clojure/browser/repl.cljs
+Copying file:/home/eleglac/Code/text-game/src/text_game/render.cljs to out/text_game/render.cljs
+Copying file:/home/eleglac/Code/text-game/src/text_game/regions.cljs to out/text_game/regions.cljs
