@@ -1,10 +1,10 @@
 # text-game
 
-FIXME: Write a one-line description of your library/project.
+A way to render a text-style game in the browser, meant to look like an old CRT monitor.
 
 ## Overview
 
-FIXME: Write a paragraph about the library/project and highlight its goals.
+This project is not being actively developed.
 
 ## Setup
 
